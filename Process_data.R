@@ -14,3 +14,4 @@ ggplot(penguins,aes(x=flipper_length_mm,y=body_mass_g, colour=species))+geom_poi
 ggsave("figs/1_flipper_bodymass_regression.png")
 #this saves the last plot that was run!
 #this is another comment
+#hi its ester

@@ -16,3 +16,7 @@ ggsave("figs/1_flipper_bodymass_regression.png")
 #this is another comment
 #hi its ester
 #hey girlies
+#subset the data 
+penguins_female<- subset(penguins,sex == "female")
+#save edited dataset
+write_tsv(penguins_female, "results/1_penguin_female_only.txt")
